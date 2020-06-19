@@ -4,10 +4,10 @@ SubReddit Classifier
 Contributors: Shantanil Bagchi, Nikhil Podila, Manoosh Samiei
 Mini-Project 2 - COMP 551 Applied Machine Learning - McGill University
 
-Abstract
+# Abstract
 In this project, we investigate the performance of text classiﬁcation methods on reddit posts from over 20 subreddits. We preprocess the data using natural language processing techniques such as stopword removal, TF-IDF weighting, χ2 test for feature selection. We used various classiﬁcation algorithms and found that an Ensemble Classiﬁer performed the best on this dataset. We also implemented Bernoulli Naive Bayes from scratch. Performances of all the classiﬁers and our implementation of Bernoulli NB are compared on the dataset. We achieved an accuracy of 61.02% on held-out validation set and 58.633% on Kaggle test set
 
-Repository Structure
+# Repository Structure
 The repository contains following files:
 
 1 Jupyter notebook files - COMP551 (Fall 2019) Applied Machine Learning Mini Project 2 (Subreddit Classifier).ipynb
@@ -21,6 +21,8 @@ Install required python libraries from requirements.txt
 Download all Jupyter notebook and Dataset files into one directory.
 Open Jupyter notebook into that directory.
 Select the required notebook (.ipynb file) and select "Run All" inside the jupyter notebook file.
+
+# Packages
 The following packages were used in the code:
 
 sklearn
