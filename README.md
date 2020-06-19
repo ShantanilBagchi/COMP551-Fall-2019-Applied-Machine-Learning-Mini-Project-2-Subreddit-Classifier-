@@ -1,6 +1,6 @@
-# COMP551(Fall-2019)-Applied Machine Learning: Mini Project 2 (Subreddit Classifier)
+# COMP551(Fall-2019)-Applied Machine Learning 
+# Mini Project 2 (Subreddit Classifier)
 ### Contributors: Shantanil Bagchi, Nikhil Podila, Manoosh Samiei
-### MiniProject 2
 
 ## Abstract
 In this project, we investigate the performance of text classiﬁcation methods on reddit posts from over 20 subreddits. We preprocess the data using natural language processing techniques such as stopword removal, TF-IDF weighting, χ2 test for feature selection. We used various classiﬁcation algorithms and found that an Ensemble Classiﬁer performed the best on this dataset. We also implemented Bernoulli Naive Bayes from scratch. Performances of all the classiﬁers and our implementation of Bernoulli NB are compared on the dataset. We achieved an accuracy of 61.02% on held-out validation set and 58.633% on Kaggle test set
